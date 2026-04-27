@@ -1,0 +1,10 @@
+macros:
+  - name: cents_to_dollars
+    description: Cencert an amount in cents to dollars
+    arguments:
+      - name: column
+        description: Column name
+        type: string
+      - name: decimals
+        description: number of decimals
+        type: integer
